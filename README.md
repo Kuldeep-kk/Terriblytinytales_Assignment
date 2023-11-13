@@ -1,7 +1,4 @@
 # Terriblytinytales_Assignment
-
-# Project README
-
 ## Live Demo
 
 Explore the live working version of the application [here](https://your-vercel-app-url).
