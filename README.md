@@ -1,49 +1,46 @@
 # Terriblytinytales_Assignment
-Description
-This project is a React application that includes components for a user profile page. It utilizes the Next.js framework for React and includes various libraries and plugins to enhance the user interface and animation capabilities.
 
-Components
-1. Home (page.js)
-The Home component is the main entry point for the application. It includes a Navbar and a Profile component wrapped in a PageWrapper. The PageWrapper component provides a smooth animation transition for page changes.
+# Project README
 
-2. Navbar (Navbar.js)
-The Navbar component represents the navigation bar at the top of the page. It includes a logo and a "Courses" button. The component uses the Next.js Link component for navigation and leverages the next/image component for image optimization.
+## Description
 
-3. Profile (Profile.js)
-The Profile component displays user profile information, including a background image, profile picture, user details, and a section for displaying user posts. The component uses the Framer Motion library for animations and includes a PageWrapper for animation transitions. It also utilizes the next/image component for optimized image loading.
+This project is a React application that features a user profile page. Built with Next.js, it incorporates various libraries and plugins to create a dynamic and visually appealing user interface.
 
-4. PostCard (PostCards.js)
-The PostCard component represents an individual post within the user profile. It displays the post title, content, author information, and additional details like post type, time, reading range, and views. It includes a heart icon for liking posts and uses the next/image component for image rendering.
+## Components
 
-5. PageWrapper (PageWrapper.js)
-The PageWrapper component is a utility component used for animation transitions between pages. It leverages the Framer Motion library to provide a smooth entrance and exit animation for page content.
+### 1. Home (`page.js`)
 
-Libraries and Plugins
-React: A JavaScript library for building user interfaces.
+The `Home` component serves as the main entry point for the application. It consists of a `Navbar` and a `Profile` component, both wrapped in a `PageWrapper` for seamless animation transitions between pages.
 
-Next.js: A React framework for building server-rendered applications.
+### 2. Navbar (`Navbar.js`)
 
-Framer Motion: A library for creating animations in React applications.
+The `Navbar` component represents the navigation bar at the top of the page. It includes a logo and a "Courses" button, utilizing the `next/image` component for optimized image loading.
 
-next/image: A Next.js component for optimized image loading.
+### 3. Profile (`Profile.js`)
 
-Setup and Installation
-Clone the repository:
+The `Profile` component displays user profile information with a background image, profile picture, user details, and a section for user posts. It leverages the Framer Motion library for animations and uses the `next/image` component for image rendering.
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
-Install dependencies:
+### 4. PostCard (`PostCards.js`)
 
-bash
-Copy code
-npm install
-Run the application:
+The `PostCard` component represents an individual post within the user profile. It displays the post title, content, author information, and additional details like post type, time, reading range, and views. The heart icon allows users to like posts, and the `next/image` component is used for image rendering.
 
-bash
-Copy code
-npm run dev
-The application should now be running locally at http://localhost:3000.
+### 5. PageWrapper (`PageWrapper.js`)
 
-Additional Notes
-Ensure that you have Node.js and npm installed on your machine.
+The `PageWrapper` component is a utility component used for animation transitions between pages. It employs the Framer Motion library to provide a smooth entrance and exit animation for page content.
+
+## Libraries and Plugins
+
+1. **React**: A JavaScript library for building user interfaces.
+
+2. **Next.js**: A React framework for building server-rendered applications.
+
+3. **Framer Motion**: A library for creating animations in React applications.
+
+4. **next/image**: A Next.js component for optimized image loading.
+
+## Setup and Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
