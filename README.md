@@ -54,3 +54,16 @@ To deploy this project on Vercel, click the button below:
    ```bash
    git clone https://github.com/your-username/your-repository.git
 
+2. **Install Dependencies:**
+
+    ```bash
+   npm install
+
+3. **Run the application**
+
+    ```bash
+   npm run dev
+
+
+
+
