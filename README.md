@@ -21,7 +21,7 @@ The `Navbar` component represents the navigation bar at the top of the page. It 
 
 The `Profile` component displays user profile information with a background image, profile picture, user details, and a section for user posts. It leverages the Framer Motion library for animations, uses the `next/image` component for image rendering, and styles with Tailwind CSS.
 
-### 4. PostCard (`PostCards.js`)
+### 4. PostCard (`PostCard.js`)
 
 The `PostCard` component represents an individual post within the user profile. It displays the post title, content, author information, and additional details like post type, time, reading range, and views. The like icon allows users to like posts, and the `next/image` component is used for image rendering. Tailwind CSS is applied for styling.
 
