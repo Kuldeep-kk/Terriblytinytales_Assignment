@@ -52,7 +52,7 @@ To deploy this project on Vercel, click the button below:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/Kuldeep-kk/Terriblytinytales_Assignment.git
 
 2. **Install Dependencies:**
 
