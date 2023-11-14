@@ -45,7 +45,7 @@ The `PageWrapper` component is a utility component used for animation transition
 
 To deploy this project on Vercel, click the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)]([https://vercel.com/import/project-url](https://terriblytinytales-assignment.vercel.app/))
+[![Deploy with Vercel]([https://vercel.com/button](https://terriblytinytales-assignment.vercel.app/))]([https://vercel.com/import/project-url](https://terriblytinytales-assignment.vercel.app/))
 
 ## Setup and Installation
 
