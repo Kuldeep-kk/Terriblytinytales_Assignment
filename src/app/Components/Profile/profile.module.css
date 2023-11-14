@@ -1,0 +1,53 @@
+.mainProfile,.mainPost{
+    box-shadow: 5px 5px 10px rgba(112, 128, 144, 0.71);
+}
+@media (max-width: 455px) {
+    .mainProfile{
+        box-shadow: none;
+    }
+    .profilePic{
+        width: 32%;
+    }
+}
+@media (min-width: 455px) and (max-width: 767px) {
+    .mainProfile{
+        box-shadow: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .mainProfile{
+        box-shadow: none;
+    }
+
+}
+@media (min-width: 250px) and (max-width: 350px) {
+    .mainProfile{
+        overflow-x: hidden;
+    }
+    .profilePic{
+        width: 25%;
+        left:5%;
+        top:-12px;
+    }
+    .profileMainDetails{
+        left:28%;
+        scale: 0.9;
+    }
+    .follow{
+        left:25%;
+        top:25px;
+        scale: 0.8;
+    }
+    .profileSecondaryDetail{
+        scale: 0.8;
+        left:-5%;
+        top:35%;
+    }
+    .postHead{
+        font-size: 12px;
+        padding:10px 0;
+    }
+    .profileDetail{
+        margin-bottom: 160px;
+    }
+}

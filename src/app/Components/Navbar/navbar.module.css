@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+.navBar{
+    background-image: linear-gradient(to bottom, #111111, #181818, #1e1e1e, #242424, #2a2a2a);
+    box-shadow: 0px 5px 5px #807e7e;
+}
+
+.logoText{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+.butCourses{
+    background-image: linear-gradient(to bottom, #fac23d, #f9c64f, #f8ca60, #f6ce70, #f5d27f);
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 3px 3px 3px #727272;
+}
+@media (min-width: 250px) and (max-width: 350px) {
+.logoMain,.butCourses{
+    scale: 0.9;
+}
+    .navBar{
+        padding:0 5px;
+        height: 60px;
+    }
+}
