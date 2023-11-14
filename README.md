@@ -23,7 +23,7 @@ The `Profile` component displays user profile information with a background imag
 
 ### 4. PostCard (`PostCards.js`)
 
-The `PostCard` component represents an individual post within the user profile. It displays the post title, content, author information, and additional details like post type, time, reading range, and views. The heart icon allows users to like posts, and the `next/image` component is used for image rendering. Tailwind CSS is applied for styling.
+The `PostCard` component represents an individual post within the user profile. It displays the post title, content, author information, and additional details like post type, time, reading range, and views. The like icon allows users to like posts, and the `next/image` component is used for image rendering. Tailwind CSS is applied for styling.
 
 ### 5. PageWrapper (`PageWrapper.js`)
 
