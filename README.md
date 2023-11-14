@@ -1,7 +1,7 @@
 # Terriblytinytales_Assignment
 ## Live Demo
 
-Explore the live working version of the application [here](https://your-vercel-app-url).
+Explore the live working version of the application [here](https://terriblytinytales-assignment.vercel.app/).
 
 ## Description
 
@@ -45,7 +45,7 @@ The `PageWrapper` component is a utility component used for animation transition
 
 To deploy this project on Vercel, click the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project-url)
+[![Deploy with Vercel](https://vercel.com/button)]([https://vercel.com/import/project-url](https://terriblytinytales-assignment.vercel.app/))
 
 ## Setup and Installation
 
