@@ -41,12 +41,6 @@ The `PageWrapper` component is a utility component used for animation transition
 
 5. **next/image**: A Next.js component for optimized image loading.
 
-## Deploy on Vercel
-
-To deploy this project on Vercel, click the button below:
-
-[![Deploy with Vercel]([https://vercel.com/button](https://terriblytinytales-assignment.vercel.app/))]([https://vercel.com/import/project-url](https://terriblytinytales-assignment.vercel.app/))
-
 ## Setup and Installation
 
 1. **Clone the repository:**
