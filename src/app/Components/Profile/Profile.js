@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import styles from './profile.module.css';
 import Image from 'next/image';
 import profileBackground from '../../../../public/ImageSrc/kk.png';
-import ProfilePicture from '../../../../public/ImageSrc/profilePicture.png';
+import ProfilePicture from '../../../../public/ImageSrc/profilePic.png';
 import diamondIco from '../../../../public/ImageSrc/diamond.png';
 import verifiedIco from '../../../../public/ImageSrc/verified.png';
 import star from '../../../../public/ImageSrc/star.png';
@@ -66,11 +66,23 @@ const Profile = () => {
                     </div>
                     <section className={`grid md:px-96 px-44 relative`}>
                         <div className={`mb-52 mt-3 lg:mb-0 ${styles.profileDetail}`}>
-
-                            <Image src={ProfilePicture} alt={'Profile Picture'} className={`${styles.profilePic} absolute -top-7 left-[9%] lg:-top-10 lg:w-[20%] rounded-full border-4 lg:border-[5px] border-slate-500 border-opacity-50`}
+                            <motion.div className={`${styles.profilePic} absolute -top-7 left-[9%] lg:-top-10`}
+                                initial={{
+                                    y:100,
+                                }}
+                                animate={{y:0,}}
+                                transition={{
+                                    type: "spring",
+                                    damping: 3,
+                                    stiffness: 50,
+                                    restDelta: 0.001
+                                }}
+                            >
+                            <Image src={ProfilePicture} alt={'Profile Picture'} className={` rounded-full border-4 lg:border-[5px] border-slate-500 border-opacity-50`}
                                    width={140}
                                    height={140}
                             />
+                            </motion.div>
                             <motion.div  className={`flex items-center absolute left-[45%] md:left-[35%] ${styles.profileMainDetails} `}
                                          initial={{
                                              x:100,
@@ -116,14 +128,14 @@ const Profile = () => {
                 </motion.div>
                 <div className={`col-span-4 mt-10 border-2 ${styles.mainPost} relative rounded-tr-2xl rounded-b-2xl `}>
                     <div className={`${styles.postHead} w-28  py-2 bg-white text-center absolute -top-10 -left-0 font-bold border-t-2 border-l-2 border-r-2 rounded-t-xl`} style={{ color: '#06b6d4' }}>{userData.posts.length} Posts</div>
-                    <motion.div className="lg:overflow-y-auto overflow-x-hidden lg:max-h-[425px] mt-3"
+                    <motion.div className="lg:overflow-y-auto overflow-x-hidden lg:max-h-[425px] my-3"
                                 initial={{
                                     y:-100,
                                 }}
                                 animate={{y:0,}}
                                 transition={{duration:1}}>
-                        {userData.posts.map(postData => (
-                                <PostCard post={postData} key={postData.postID} author={removeMiddleSpaces(userData.name)} />
+                        {userData.posts.map((postData,i) => (
+                                <PostCard post={postData} key={postData.postID} author={removeMiddleSpaces(userData.name)} index={i} />
                         ))}
                     </motion.div>
                 </div>
