@@ -58,6 +58,20 @@ The `PageWrapper` component is a utility component used for animation transition
     ```bash
    npm run dev
 
+## Screenshots
+
+### Desktop View
+
+![Desktop View](https://res.cloudinary.com/dzxorfube/image/upload/v1700238730/samples/website%20screenshot/lfwqmprjhkpfsnz70dyi.png)
+
+### Tablet View
+
+![Tablet View](https://res.cloudinary.com/dzxorfube/image/upload/v1700238729/samples/website%20screenshot/bkdhktmb1skrhhtcdvuf.png)
+
+### Mobile View
+
+![Mobile View](https://res.cloudinary.com/dzxorfube/image/upload/v1700238729/samples/website%20screenshot/qjoa7ehxjyxlmltb4y80.png)
+
 
 
 
