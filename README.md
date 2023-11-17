@@ -66,7 +66,7 @@ The `PageWrapper` component is a utility component used for animation transition
 
 ### Tablet View
 
-<img src="https://res.cloudinary.com/dzxorfube/image/upload/v1700238729/samples/website%20screenshot/bkdhktmb1skrhhtcdvuf.png" alt="Tablet View" width="500" height="300">
+<img src="https://res.cloudinary.com/dzxorfube/image/upload/v1700238729/samples/website%20screenshot/bkdhktmb1skrhhtcdvuf.png" alt="Tablet View" width="400" height="700">
 
 ### Mobile View
 
