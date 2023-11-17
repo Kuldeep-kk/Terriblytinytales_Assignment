@@ -62,11 +62,11 @@ The `PageWrapper` component is a utility component used for animation transition
 
 ### Desktop View
 
-<center><img src="https://res.cloudinary.com/dzxorfube/image/upload/v1700238730/samples/website%20screenshot/lfwqmprjhkpfsnz70dyi.png" alt="Desktop View" width="800" height="400"></center>
+<div align="center"><img src="https://res.cloudinary.com/dzxorfube/image/upload/v1700238730/samples/website%20screenshot/lfwqmprjhkpfsnz70dyi.png" alt="Desktop View" width="800" height="400"></div>
 
 ### Tablet View
 
-<center><img src="https://res.cloudinary.com/dzxorfube/image/upload/v1700238729/samples/website%20screenshot/bkdhktmb1skrhhtcdvuf.png" alt="Tablet View" width="500" height="700"></center>
+<div align="center"><img src="https://res.cloudinary.com/dzxorfube/image/upload/v1700238729/samples/website%20screenshot/bkdhktmb1skrhhtcdvuf.png" alt="Tablet View" width="500" height="700"></div>
 
 ### Mobile View
 
